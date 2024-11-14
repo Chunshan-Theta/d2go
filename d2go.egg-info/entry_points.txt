@@ -1,0 +1,3 @@
+[console_scripts]
+d2go.exporter = d2go.tools.exporter:cli
+d2go.train_net = d2go.tools.train_net:cli

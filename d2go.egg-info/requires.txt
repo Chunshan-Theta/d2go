@@ -1,0 +1,10 @@
+importlib
+numpy
+Pillow
+mock
+torch
+pytorch-lightning==1.8.6
+opencv-python
+parameterized
+protobuf==3.20.2
+torchtnt
