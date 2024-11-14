@@ -108,6 +108,8 @@ def main():
     cfg = runner.get_default_cfg()
     cfg.merge_from_file(cfg_file)
     cfg.MODEL.WEIGHTS = args.ckp_file
+    cfg.MODEL.DEVICE = "cuda"  # 設定設備為 "cuda" 表示使用 GPU
+
 
     cfg = setup_cfg(cfg, args)
     # import pdb; pdb.set_trace()
